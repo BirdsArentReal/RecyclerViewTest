@@ -24,7 +24,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
     }
 
     @Override
-    public void onBindViewHolder(@NonNull MyViewHolder holder, int position, @NonNull List<Object> payloads) {
+    public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         ImageView img_thumb = holder.img_thumb;
         ImageView img_more = holder.img_more;
         TextView tv_country = holder.tv_country;
